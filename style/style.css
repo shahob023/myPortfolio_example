@@ -1,0 +1,346 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+li,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+
+li {
+  text-decoration: none;
+}
+
+header {
+  margin-bottom: 100px;
+}
+
+.header_top {
+  margin-top: 33px;
+  border-bottom: 1px solid #828282;
+  margin-bottom: 40px;
+}
+
+.headerTop_list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerTop_list > li {
+  text-decoration: none;
+  margin-bottom: 31px;
+}
+
+.headerTop_list > li > a {
+  color: #828282;
+  font-family: Gilroy-Bold;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.headerTop_list > li > a:first-child:hover {
+  color: var(--Black, #070707);
+  font-family: Gilroy-Bold;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.up_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.leftUp > h1 {
+  color: var(--Black, #070707);
+  font-family: Gilroy-Bold;
+  font-size: 47.339px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.middleUp > p {
+  color: var(--Black, #070707);
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.rightUp > p {
+  color: #828282;
+  font-family: Gilroy-Bold;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  transform: rotate(-90deg);
+}
+
+.rightUp > p > span {
+  color: #000;
+  font-family: Gilroy-Bold;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.img_section > img {
+  width: 100%;
+}
+
+.hero {
+  height: 506px;
+  background-color: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 91px;
+}
+
+.hero_title {
+  color: var(--Black, #070707);
+  text-align: center;
+  font-family: Gilroy-Bold;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.hero_text {
+  color: var(--Black, #070707);
+  text-align: center;
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.workplace_title {
+  color: var(--Black, #070707);
+  text-align: center;
+  font-family: Gilroy-Bold;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 70px;
+}
+
+.workplace_text {
+  color: var(--Black, #070707);
+  text-align: center;
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 83px;
+}
+
+.apps_holder {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 110px;
+}
+
+.card_frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.adobe {
+  color: #828282;
+  text-align: center;
+  font-family: Gilroy-Bold;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.portfolio {
+  background: #f6f6f6;
+  height: 2253px;
+  margin-bottom: 114px;
+}
+
+.portfolio_text {
+  color: var(--Black, #070707);
+  text-align: center;
+  font-family: Gilroy-Bold;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 112px;
+  margin-bottom: 47px;
+}
+
+.woman_collection {
+  width: 936.24px;
+  height: 510px;
+  background: white;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 45px;
+}
+
+.homepage {
+  color: var(--Black, #070707);
+  text-align: center;
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 99px;
+}
+
+.reebok_web {
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 44px;
+}
+
+.reebok_link {
+  color: var(--Black, #070707);
+  text-align: center;
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 99px;
+}
+
+.braun_page {
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 45px;
+}
+
+.braunPage_link {
+  color: var(--Black, #070707);
+  text-align: center;
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  display: flex;
+  justify-content: center;
+}
+
+.footer_holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contacts {
+  color: var(--Black, #070707);
+  text-align: center;
+  font-family: Gilroy-Bold;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer_text {
+  color: var(--Black, #070707);
+  text-align: center;
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 29px;
+}
+
+.btn {
+  width: 180.5px;
+  height: 42px;
+  background-color: #070707;
+  border-radius: 25px;
+  border: none;
+  margin-bottom: 79px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 79px;
+}
+
+.btn > a {
+  color: #fff;
+  text-align: center;
+  font-family: Gilroy-Bold;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.messenjer {
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 45px;
+}
+
+.desc {
+  color: #828282;
+  text-align: center;
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 123px;
+}/*# sourceMappingURL=style.css.map */
