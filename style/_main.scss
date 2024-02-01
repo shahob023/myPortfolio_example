@@ -1,6 +1,3 @@
-header {
-  margin-bottom: 100px;
-}
 .header_top {
   margin-top: 33px;
   border-bottom: 1px solid #828282;
@@ -75,18 +72,23 @@ header {
   font-weight: 400;
   line-height: normal;
 }
-.img_section > img {
+.img1 {
   width: 100%;
+}
+.img2{
+  display: none;
+  max-width: 576px;
 }
 
 .hero {
   height: 506px;
-  background-color: #f6f6f6;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 91px;
+  .container{
+    background: #f6f6f6;
+  }
 }
 .hero_title {
   color: var(--Black, #070707);
@@ -96,6 +98,8 @@ header {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-bottom: 20px;
+  margin-top: 30px;
 }
 .hero_text {
   color: var(--Black, #070707);
@@ -105,6 +109,7 @@ header {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-bottom: 30px;
 }
 
 .workplace_title {
@@ -138,6 +143,9 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  img{
+    max-width: 150px;
+  }
 }
 .adobe {
   color: #828282;
@@ -149,9 +157,10 @@ header {
   line-height: normal;
 }
 .portfolio {
-  background: #f6f6f6;
-  height: 2253px;
   margin-bottom: 114px;
+  .container{
+    background: #f6f6f6;
+  }
 }
 .portfolio_text {
   color: var(--Black, #070707);
@@ -165,8 +174,7 @@ header {
   margin-bottom: 47px;
 }
 .woman_collection {
-  width: 936.24px;
-  height: 510px;
+  max-width: 936.24px;
   background: white;
   display: flex;
   margin: 0 auto;
@@ -222,6 +230,7 @@ header {
   text-decoration-line: underline;
   display: flex;
   justify-content: center;
+  padding-bottom: 80px;
 }
 
 .footer_holder {

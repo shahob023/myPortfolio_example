@@ -1,0 +1,48 @@
+@media (max-width: 576px) {
+    *{
+        width: 100%;
+    }
+    header{
+        .header_top{
+            display: none;
+        }
+        .header_bottom{
+            margin-top: 50px;
+            .up_section{
+                display: block;
+                .rightUp{
+                    display: none;
+                }
+            }
+            .img_section{
+                .img1{
+                    display: none;
+                    justify-content: center;
+                }
+                .img2{
+                    display: flex;
+                    width: 100%;
+                }
+            }
+        }
+    }
+    main{
+        .apps_holder{
+            flex-direction: column;
+            .card_frame{
+                margin-bottom: 60px;
+            }
+        }
+        .woman_collection {
+            img{
+                max-width: 576px;
+            }
+        }
+        .reebok_web {
+            max-width: 576px;
+        }
+        .braun_page{
+            max-width: 576px;
+        }
+    }
+}
